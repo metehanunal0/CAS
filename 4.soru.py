@@ -1,7 +1,4 @@
 import cv2 
-from matplotlib import pyplot as plt
-import numpy as np
-
 resim = cv2.imread("everythingfine.jpeg")
 
 cv2.line(resim,(400,400),(1460,400),(255,0,0),3)
